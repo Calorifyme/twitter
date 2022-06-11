@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #0a1014;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    justify-items: center;
+}
+h1 {
+    color: #1da1f2;
+    text-transform: uppercase;
+  }
+   
+  .intent {
+    padding: 35px 0;
+  }
+  .intent .btn {
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px;
+    background: #1da1f2;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+  }
+   
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+  }
+   
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+   
+  input[type='text'] {
+    width: 500px;
+    padding: 10px 10px 12px 60px;
+    font-size: 12px;
+    color: #555;
+    border: 1px solid #aaa;
+  }
+   
+  .css {
+    display: block;
+    position: relative;
+  }
+  .css input {
+    transition: .1s all linear;
+  }
+  .css label {
+    position: absolute;
+    top: 13px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1da1f2;
+    transition: .1s all linear;
+    padding-left: 5px;
+    cursor: text;
+  }
+  .css.active input {
+    padding-left: 15px;
+    border: 3px solid #1da1f2;
+  }
+  .css.active label {
+    top: -18px;
+  }
+  .css #character_remaining {
+    padding: 15px;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .css #character_remaining.warning {
+    color: #1da1f2;
+  }
+  #intent{
+      user-select: all;
+  }
+  .card2{
+      text-align: center;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.104);
+      border-radius: 25px;
+  }
+
+
+
+
+
+
+
+  .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+ 
+}
+.fa-quote-left, .fa-quote-right {
+    font-size: 35px;
+    color: #1da1f2;
+}
+.quote
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.author 
+{
+    
+    margin:10px;
+    text-align: right;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+}
+hr {
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+}
+.twitter
+{
+    border:1px solid #1da1f2;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+	height: 35px;
+	line-height: 40px;
+}
+.next
+{
+    font-size:18px;
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #1da1f2;
+}
+.container:hover
+{
+    box-shadow: 0 10px 10px #1da1f2;
+}
+.btnhr:hover
+{
+    box-shadow: 0 5px 5px #ffffff;
+}
+iframe{
+    width: 100vw;
+    height: 90vh;
+}

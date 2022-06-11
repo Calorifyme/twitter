@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a1014">
+    <link rel="stylesheet" href="style.css">
+    <title>App</title>
+</head>
+<body>
+<div class="card">
+    <div class="card2">
+        <h1>Twitter intent generator</h1>
+        <div class="intent">
+        <div class="css">
+        <label for="txt">TWEET TEXT</label>
+        <input id="txt" type="text" />
+        <div style="width: 100%;text-align:left;"><div id="character_remaining"></div></div>
+        
+        </div>
+        <div class="css">
+        <label for="link" style="display: none;">URL</label>
+        <input id="link" type="text" style="display: none;"/>
+        <div id="intent"></div>
+        </div>
+        <a class="btn">Generate</a>
+        </div>
+    </div>
+</div>
+
+ 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+<script  src="function.js"></script>
+</body>
+</html>
